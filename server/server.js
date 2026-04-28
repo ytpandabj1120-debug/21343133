@@ -42,7 +42,7 @@ const {
 const PORT = process.env.PORT || 3000;
 const MAX_PLAYERS = 6;
 const MIN_PLAYERS = 2;
-const BASE_ANTE = 1; // 매 판 참가비 1조각
+const BASE_ANTE = 5; // 매 판 참가비 1조각
 const AUTO_RESTART_DELAY_MS = 5000; // 판 종료 후 5초 뒤 자동 재시작
 
 // 개발자/관리자 설정.
